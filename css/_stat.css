@@ -1,0 +1,18 @@
+/* start stat style section */
+.stat-section-wrapper{
+    background-color: #ffc413;
+    height: 250px;
+}
+.stat-section-wrapper i{
+    font-size: 45px;
+}
+.stat-section-wrapper .count{
+    color: #fbfbfb;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px){
+    .count-title{
+        border-bottom: 1px solid #efefef;
+        padding-bottom: 15px;
+    }
+}

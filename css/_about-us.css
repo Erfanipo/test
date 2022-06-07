@@ -1,0 +1,34 @@
+/* start about us style section */
+.about-us-left-side {
+  background-color: #f7f7f7;
+  padding: 35px;
+  text-align: right;
+}
+.about-us-left-side h4 {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #3b3737;
+}
+.about-us-left-side p {
+  color: #797272;
+  font-size: 14px;
+  padding: 26px;
+  line-height: 30px;
+}
+.about-us-left-side .btn-gold {
+  font-size: 12px;
+  margin-left: 10px;
+  transition: all 0.4s !important;
+}
+.about-us-left-side .btn-gold:hover {
+  border-radius: 0 10px 0 10px;
+}
+.about-us-right-side {
+  padding: 0 !important;
+}
+@media screen and (max-width: 992px) {
+  .about-us-right-side {
+    display: none;
+  }
+}

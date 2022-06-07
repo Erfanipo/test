@@ -1,0 +1,37 @@
+@import url(_nav.css);
+@import url(style-grid.css);
+@import url(../reset.css/reset.css);
+@import url(_style-contact.css);
+@import url(_header.css);
+@import url(_course.css);
+@import url(_about-us.css);
+@import url(_teacher.css);
+@import url(_stat.css);
+@import url(_topic.css);
+@import url(_faq.css);
+@import url(_footer.css);
+#top{
+    position: fixed;
+    bottom: -60px;
+    right: 20px;
+    background-color: #fea204;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: all .3s ease;
+    z-index: 900;
+    /* display:none ; */
+}
+#top i{
+    color: #fff;
+    position: relative;
+    right: -17px;
+    top: 13px;
+    transition: all .3s ease;
+}
+/* #top:hover{
+    background-color: #ee9700;
+} */
+#top i:hover{
+    top: 9px;
+}

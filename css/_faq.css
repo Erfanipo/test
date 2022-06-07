@@ -1,0 +1,85 @@
+/* start faq style section */
+.faq-section-wrapper{
+    background-image: url(../images/th-70.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    direction: rtl;
+}
+.faq-section-wrapper .faq-right-side{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fafafa;
+    padding: 40px;
+    margin-top: 86px;
+}
+.faq-section-wrapper .faq-right-side ul li{
+    display: block;
+}
+.faq-section-wrapper .faq-right-side i{
+    color: #0000ff;
+    font-size: 29px;
+    vertical-align: -12px;
+    margin-left: 18px;
+}
+.faq-section-wrapper .faq-right-side h6{
+    color: #222;
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.faq-section-wrapper .faq-right-side p{
+    font-size: 13px;
+    margin: 0 48px 0 0;
+    color: #867777;
+}
+.faq-left-side .tabs{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 86px;
+    overflow: hidden;
+}
+.faq-section-wrapper .faq-left-side input{
+    display: none;
+    /* cursor: pointer; */
+}
+.faq-section-wrapper .faq-left-side .tab-lable{
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #4b4bff;
+    display: block;
+    transition: .5s ease;
+}
+.faq-section-wrapper .faq-left-side .tab i{
+    font-size: 14px;
+    padding: 2px 0 0 0px;
+    transition: .5s ease;
+    color: #fff;
+    left: 12px;
+    top: 15px;
+    /* background-color: #000; */
+}
+.faq-section-wrapper .faq-left-side .tab-btn{
+    background-color: #fff;
+    color: #444;
+    font-size: 14px;
+    max-height: 0;
+    transition: .5s ease-in;
+}
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-btn{
+    max-height: 100px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.faq-section-wrapper .faq-left-side input:checked + .tab-lable i{
+    transform: rotate(-90deg);
+}
+@media screen and (max-width: 765px){
+
+    .faq-left-side .tabs{
+        margin-top: 25px;
+    }
+}
+.faq-section-wrapper .faq-left-side .tab-lable:hover{
+    background-color: #6a6aff;
+}

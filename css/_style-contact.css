@@ -1,0 +1,41 @@
+/* start style contact section */
+.container-fluid-custom{
+    background-color: #041121;
+}
+.right span{
+    margin-right: 10px;
+}
+.right{
+    direction: rtl;
+    margin-top: 8px;
+}
+.container-fluid .right span{
+    vertical-align:1px ;
+}
+.container-fluid{
+    height: 40px;
+}
+.left .icon{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    width: 40px;
+    transition: all .6s ease;
+}
+.left .icon:hover{
+    background-color: #c49031;
+}
+.phone,.phone-1{
+    color: #ffa500;
+    margin-top: 6px;
+}
+.phone span,.phone-1 span{
+    margin-left: 3px;
+    color: rgb(219, 219, 219);
+}
+@media screen and (max-width:744px){
+   .right .phone {
+        display: none!important;
+    }
+}
+/* end style contact section */

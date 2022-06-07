@@ -1,0 +1,65 @@
+/* start topic style section */
+.topic-section-wrapper{
+    background-image: url(../images/adobe-kisspng-web-development-website-web-design-colorful-square-background-shading-of-science-and-5a99d9d5b9dc89_edited.jpg);
+    height:900px;
+}
+.topic-wrapper{
+    direction: rtl;
+}
+.topic-wrapper img{
+    transition: all .5s ease;
+    transform: scale(1.15);
+}
+.topic-wrapper .card-header{
+    overflow: hidden;
+}
+.topic-wrapper:hover img{
+    transform: scale(1.5) rotate(18deg);
+}
+.topic-wrapper .card-body{
+    margin: 30px 10px 10px;
+    line-height: 30px;
+}
+.topic-wrapper .card-body a{
+    font-size: 13px;
+    margin: 0 0 0 100px;
+    font-weight: bolder;
+}
+.topic-wrapper .card-body p{
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.card .card-body .post-date{
+    top: -60px;
+    right: 5px;
+}
+.card .card-body .post-date div:first-child{
+    background-color: #ffa000;
+    color: #fff;
+    padding: 0px 7px;
+}
+.card .card-body .post-date div:last-child{
+    background-color: #bdbdbd;
+    color: #fff;
+    padding: 0px 7px;
+}
+.card .card-footer{
+    border-top: 1px solid #f3f3f3;
+    padding: 8px 0 0;
+}
+.card .card-footer ul li{
+    padding: 0 15px;
+    color: #c0c0c0;
+    font-size: 14px;
+}
+.card .card-footer ul li span{
+    margin: 0 5px 0 0;
+}
+@media screen and (max-width: 890px) and (min-width: 769px){
+    .topic-wrapper .card-body{
+        margin: 25px 4px 5px;
+    }
+    .topic-wrapper .card-body a,p{
+        font-size: 13px;
+    }
+}
